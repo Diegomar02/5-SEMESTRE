@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>cita</title>
+    <!--link:css -->
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <h1>DIEGO MARQUEZ GOMEZ</h1>
+     <!-- div>form>fieldset>table>tr*5>td*2 -->
+     <div>
+         <form action="">
+             <fieldset>
+                <legend>Cita Medica</legend>
+                 <table>
+                     <tr>
+                         <td><label for="nombre">Nombre:</label></td>
+                         <td><input id="nombre" type="text"></td>
+                         
+                     </tr>
+                     <tr>
+                         <td><label for="edad">Edad:</label></td>
+                         <td><input id="edad" type="number"></td>
+                     </tr>
+                     <tr>
+                         <td>Sexo:</td>
+                         <td>
+                             <input type="radio" name="sexo" value="dama" id="dama" checked>
+                             <label for="dama">Mujer</label>
+                             <input type="radio" name="sexo" value="caballero" id="caballero">
+                             <label for="caballero">Hombre</label>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td><label for="fecha">Fecha:</label></td>
+                         <td><input id="fecha" type="date"></td>
+                     </tr>
+                     <tr>
+                         <td><input onclick="show()" type="button" value="Ver" title="Ver información"></td>
+                     </tr>
+                 </table>
+             </fieldset>
+         </form>
+     </div>
+  
+     
+     <!--script:src -->   
+     <scrit src="js/funciones.js"></scrit>
+</body>
+</html>

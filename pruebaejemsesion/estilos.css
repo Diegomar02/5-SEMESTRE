@@ -1,0 +1,22 @@
+.caja  {
+   background: silver;
+   border: 1px solid #393939;
+   border-radius: 5px 5px 5px 5px;
+   color: #393939;
+   font-size: 15px;
+   padding: 10px;
+}
+
+.btn-borde {
+  padding: 10px;
+  border: 1px solid #007bff;
+  border-radius: .25rem;
+  color: #007bff;
+  transition: color .15s ease-in-out,
+    background-color .15s ease-in-out;
+}
+
+.btn-borde:hover, .btn-borde:active, .btn-borde:focus {
+  color: #fff;
+  background-color: #007bff;
+}

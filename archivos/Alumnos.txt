@@ -1,0 +1,48 @@
+NOMBRE: Carlos
+SEXO:masculino
+CALIF 1: 10
+CALIF 2: 9
+CALIF 3: 8
+Promedio: 9
+
+
+NOMBRE: Pepe
+SEXO:masculino
+CALIF 1: 10
+CALIF 2: 9
+CALIF 3: 10
+Promedio: 9.6666666666667
+
+
+NOMBRE: gina salazar
+SEXO:femenino
+CALIF 1: 10
+CALIF 2: 9
+CALIF 3: 8
+Promedio: 9
+
+
+NOMBRE: Edith
+SEXO:femenino
+CALIF 1: 10
+CALIF 2: 10
+CALIF 3: 5
+Promedio: 8.3333333333333
+
+
+NOMBRE: Memo
+SEXO:masculino
+CALIF 1: 7
+CALIF 2: 7
+CALIF 3: 10
+Promedio: 8
+
+
+NOMBRE: Lucia
+SEXO:femenino
+CALIF 1: 8
+CALIF 2: 8
+CALIF 3: 7
+Promedio: 7.6666666666667
+
+

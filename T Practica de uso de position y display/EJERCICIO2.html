@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo1</title>
+    
+    <h1>Diego Marquez Gomez</h1>
+    
+    <style>
+        body{
+            background-color: #CF212A;
+        }
+        #container{
+            margin-top: 100px;
+            text-align: center;
+        }
+        .image{
+            display: inline-block;
+            width: 300px;
+        }
+        .name{
+            background-color: black;
+            color:white;
+            padding: 10px;
+            width: 300px;
+            
+            display: none;
+            position: absolute;
+            margin-left: 5px;
+       
+        }
+        .image:hover .name{
+            display: block;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="container">
+        <div class="image">
+            <img src="fotos/1.jpg" id="imagen01">
+            <div class="name">
+                paisaje1
+            </div>
+        </div>
+        <div class="image">
+            <img src="fotos/2.png" id="imagen02">
+            <div class="name">
+                paisaje2
+            </div>
+        </div>
+        <div class="image">
+            <img src="fotos/3.jpg" id="imagen03">
+            <div class="name">
+                paisaje3
+            </div>
+        </div>
+    </div>
+</body>
+</html>

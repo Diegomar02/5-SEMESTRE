@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+   
+    <style>
+        th,td{
+            border-bottom: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        body{
+            margin-left: 50px;
+        }
+        tr:hover{
+            background:green;
+        }
+    
+    </style>
+    
+
+<body>
+ <h1>Diego Marquez Gomez </h1>
+  <div style="text-align:center;">
+      <table>
+        <tr>
+           <th colspan="4"><br>CATALOGO DE ARTE</th>
+       </tr>
+       <tr>
+           <td><br>Introduce los términos de búsqueda:<br><br></td>    
+       </tr>
+       
+       
+       
+       
+       <tr>
+           <td>OBRA</td>
+           <td>TIPO</td>
+           <td>DISPONIBILIDAD</td>
+           <td>ESTILO</td>
+       </tr>
+       
+       <tr>
+           <td>
+           <label for="titulo">Titulo:</label>
+           <input type="text" id=titulo name="titulo">
+           </td>
+           
+           <td>
+           <input type="checkbox" id=escultura name="escultura">
+           <label for="escultura">Escultura</label>
+           </td>
+           
+           <td>
+            <input type="checkbox" id=museo name="museo">
+           <label for="museo">Museo/Acesso publico</label>
+           </td>
+           
+           <td>
+               Elige un estilo:
+           </td>
+       </tr>
+       
+       <tr>
+           <td>
+            <label for="autor">Autor: </label>
+           <input type="text" id=autor name="autor">   
+           </td>
+           
+           <td>
+           <input type="checkbox" id=arquitectura name="arquitectura">
+           <label for="arquitectura">Arquitectura</label>    
+           </td>
+           
+           <td>
+            <input type="checkbox" id=coleccion name="coleccion">
+           <label for="coleccion">Coleccion Privada</label>
+           </td>
+           
+           <td>
+                <input list="browsers">
+                <datalist id="browsers">
+                   <option value="Moderna"></option>
+                    <option value="Contemporanea"></option>
+                    <option value="Barroco"></option>
+                </datalist>
+           </td>
+           
+       </tr>
+       
+       <tr>
+           <td><br><br>Diganos sus comentarios</td>
+           
+           
+       </tr>
+       
+       <tr>
+           <td>
+               <input type="text" id=titulo name="titulo" style="width: 200px;height: 100px">
+           </td>
+       </tr>
+       
+       <tr>
+           <td>
+
+               <button 
+                  type="button" value="Click" style="width: 70px;height:30px">Buscar
+                </button>
+                              
+           </td>
+       </tr>
+
+       </table>
+  </div>
+   
+    
+</body>
+</html>

@@ -1,0 +1,4 @@
+Hola estamos probando<br>
+como realizar una<br> 
+peticion utilizando<br>
+AJAX

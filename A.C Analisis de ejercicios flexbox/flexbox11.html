@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox 11</title>
+    
+    <h1>Diego Marquez Gomez</h1>
+    
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-family: Verdana,serif;
+        }
+        header{
+            height: 70px;
+            line-height: 70px;
+            padding-left: 40px;
+            background: #333334;
+            color: #FFFFFF;
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        
+        section{
+            
+        }
+        
+        article{
+            display:flex;
+            margin-top: 30px;
+            background: #CCC;
+        }
+        #no-wrap{
+            flex-wrap: nowrap;
+        }
+        #wrap{
+            flex-wrap: wrap;
+        }
+        img{
+            border: dashed 1px #555;
+            margin: 10px;
+        }
+        
+    </style>    
+
+</head>
+
+<body>
+   <header>Flexbox - Catalogo de Imagenes</header>
+   <nav>
+       
+   </nav>
+   <h1>flex-wrap: nowrap;</h1>
+   <article id="no-wrap">
+      <img src="imagenes/1.png">
+      <img src="imagenes/2.png">
+      <img src="imagenes/3.png">
+      <img src="imagenes/4.png">
+      <img src="imagenes/5.png">
+      <img src="imagenes/6.png">
+   </article>
+   <h1>flex-wrap: wrap;</h1>
+   <article id="wrap">
+      <img src="imagenes/1.png">
+      <img src="imagenes/2.png">
+      <img src="imagenes/3.png">
+      <img src="imagenes/4.png">
+      <img src="imagenes/5.png">
+      <img src="imagenes/6.png">
+      <img src="imagenes/1.png">
+      <img src="imagenes/2.png">
+      <img src="imagenes/3.png">
+      <img src="imagenes/4.png">
+      <img src="imagenes/5.png">
+   </article>
+    
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejemplo simple de login con PHP | parzibyte.me</title>
+    <style>
+        .caja {
+            background: silver;
+            border: 1px solid #393939;
+            border-radius: 5px 5px 5px 5px;
+            color: #393939;
+            font-size: 15px;
+            padding: 10px;
+        }
+
+        .btn-borde {
+            padding: 10px;
+            border: 1px solid #007bff;
+            border-radius: .25rem;
+            color: #007bff;
+            transition: color .15s ease-in-out,
+                background-color .15s ease-in-out;
+        }
+
+        .btn-borde:hover,
+        .btn-borde:active,
+        .btn-borde:focus {
+            color: #fff;
+            background-color: #007bff;
+        }
+        
+        div{
+            margin:50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Se va a procesar en login.php y se enviará por POST, no por GET-->
+
+
+<div>
+
+    <form action="login.php" method="post">
+        <!--
+                Nota: el atributo name es importante, pues lo vamos a recibir de esa manera
+                en PHP
+            -->
+        <input class="caja" name="usuario" type="text" placeholder="nombre de usuario">
+        <br><br>
+        <input class="caja" aria-atomic=""name="palabra_secreta" type="password" placeholder="Contraseña">
+        <br><br>
+        <!--Lo siguiente envía el formulario-->
+        <input class="btn-borde" type="submit" value="Iniciar sesión">
+    </form>
+
+</div>
+
+
+</body>
+
+</html>
